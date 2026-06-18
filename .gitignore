@@ -1,1 +1,10 @@
-node_modules/
+# Ignore large datasets
+*.csv
+!cleaned_shopping_dataset.csv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
